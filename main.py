@@ -7,10 +7,10 @@ def validate(user_name, passwd):
         print()
         print()
         display_score(user_name)
-
     else:
-        print("Please enter valid credientials")
+        print("Please enter valid credientials and try again ! ")
         print()
+
 
 def main():
     while True:
@@ -51,5 +51,5 @@ def main():
         
 
 if __name__ == "__main__":
-    print("fuck")
+    main()
 
